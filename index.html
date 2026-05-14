@@ -3,12 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carte de visite</title>
+  <title>Adam Sante</title>
+  <meta
+    name="description"
+    content="Carte de visite digitale Adam Sante avec acces rapide au contact et au telechargement de la fiche."
+  >
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="card">
-    <h1 id="greeting">Bonjour</h1>
+  <main class="page-shell">
+    <section class="card" aria-labelledby="brand-name">
+      <div class="hero-frame">
+        <img
+          id="hero-image"
+          class="hero-image"
+          src="assets/logo.png"
+          alt="Logo Adam Sante"
+        >
+        <div class="hero-copy">
+          <p class="hero-kicker">Suivi et coordination</p>
+          <h2 class="hero-title">Adam Sante</h2>
+          <p class="hero-subtitle">Diabete, pompe a insuline, accompagnement de proximite</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="content-body">
+          <p class="eyebrow">Carte de visite digitale</p>
+          <h1 id="brand-name">Adam Sante</h1>
+          <p class="role" id="role-text">Infirmiere coordinatrice</p>
+          <p class="intro" id="intro-text">
+            Adam Sante accompagne ses patients et ses partenaires avec une approche
+            humaine, claire et accessible. Retrouvez ici les informations utiles
+            pour prendre contact rapidement.
+          </p>
+
+          <dl class="details" aria-label="Informations de contact">
+            <div class="detail-item">
+              <dt>Adresse</dt>
+              <dd id="address-text">6 chemin du pavillon, 95100 Argenteuil</dd>
+            </div>
+            <div class="detail-item">
+              <dt>Specialite</dt>
+              <dd id="specialty-text">Prestataire diabete pompe a insuline</dd>
+            </div>
+            <a
+              id="support-link"
+              class="detail-item detail-item-highlight detail-link"
+              href="tel:+33146498062"
+            >
+              <dt>Astreinte</dt>
+              <dd id="support-text">24H/24 7J/7 - 01.46.49.80.62</dd>
+            </a>
+          </dl>
+        </div>
+
+        <div class="actions" aria-label="Actions principales">
+          <a
+            id="download-button"
+            class="action-button action-button-primary"
+            href="assets/adam-sante-contact.vcf"
+            download
+          >
+            Telecharger la carte
+          </a>
+          <a
+            id="call-button"
+            class="action-button action-button-secondary"
+            href="tel:+330000000000"
+          >
+            Appeler
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script src="script.js"></script>

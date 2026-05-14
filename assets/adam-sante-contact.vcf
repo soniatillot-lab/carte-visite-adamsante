@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Sonia Tillot
+N:Tillot;Sonia;;;
+TITLE:Infirmiere coordinatrice
+EMAIL;TYPE=INTERNET:sonia.tillot@adamsante.fr
+ORG:Adam Sante
+TEL;TYPE=CELL:+33633626933
+TEL;TYPE=WORK,VOICE:+33146498062
+ADR;TYPE=WORK:;;6 chemin du pavillon;Argenteuil;;95100;France
+URL:https://soniatillot-lab.github.io/carte-visite-adamsante/
+NOTE:Prestataire diabete pompe a insuline. Astreinte 24H/24 7J/7 au 01.46.49.80.62.
+END:VCARD

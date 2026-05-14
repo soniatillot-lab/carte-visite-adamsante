@@ -1,0 +1,24 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1200" fill="#9F6B43"/>
+  <rect width="1600" height="1200" fill="url(#paint0_linear)"/>
+  <circle cx="1210" cy="270" r="255" fill="url(#paint1_radial)" fill-opacity="0.92"/>
+  <circle cx="360" cy="170" r="180" fill="#F8E3C7" fill-opacity="0.35"/>
+  <path d="M0 953C165 824 353 779 565 818C727 848 827 918 981 936C1158 956 1364 887 1600 716V1200H0V953Z" fill="#E7C08A" fill-opacity="0.9"/>
+  <path d="M0 1021C211 886 432 845 663 900C799 932 941 1017 1117 1021C1289 1025 1450 958 1600 848V1200H0V1021Z" fill="#F9F1E7"/>
+  <rect x="138" y="154" width="365" height="365" rx="44" fill="white" fill-opacity="0.14"/>
+  <path d="M345.5 259C402.661 259 449 305.339 449 362.5C449 419.661 402.661 466 345.5 466C288.339 466 242 419.661 242 362.5C242 305.339 288.339 259 345.5 259ZM345.5 297.812C309.777 297.812 280.812 326.777 280.812 362.5C280.812 398.223 309.777 427.188 345.5 427.188C381.223 427.188 410.188 398.223 410.188 362.5C410.188 326.777 381.223 297.812 345.5 297.812Z" fill="#FFF7EE"/>
+  <path d="M345.5 314.5C372.01 314.5 393.5 335.99 393.5 362.5C393.5 389.01 372.01 410.5 345.5 410.5C318.99 410.5 297.5 389.01 297.5 362.5C297.5 335.99 318.99 314.5 345.5 314.5Z" fill="#FFF7EE"/>
+  <text x="138" y="660" fill="#FFF7EE" font-family="Georgia, serif" font-size="118" letter-spacing="-2">Adam Sante</text>
+  <text x="145" y="742" fill="#FFF3E3" font-family="Georgia, serif" font-size="38" letter-spacing="5">CARTE DE VISITE DIGITALE</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="236" y1="85" x2="1321" y2="1127" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D3A26B"/>
+      <stop offset="0.54" stop-color="#9F6B43"/>
+      <stop offset="1" stop-color="#5D3A26"/>
+    </linearGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1210 270) rotate(90) scale(255)">
+      <stop stop-color="#FFF2D8"/>
+      <stop offset="1" stop-color="#FFF2D8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
