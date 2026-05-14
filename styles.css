@@ -71,7 +71,7 @@ img {
 }
 
 .hero-image {
-  width: clamp(3.8rem, 15vw, 5.2rem);
+  width: clamp(4.5rem, 18vw, 6rem);
   height: auto;
   object-fit: contain;
 }
@@ -227,15 +227,20 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1rem;
-  height: 1rem;
+  width: 1.05rem;
+  height: 1.05rem;
   margin-right: 0.28rem;
   border-radius: 999px;
   background: rgba(53, 92, 134, 0.12);
   color: #355c86;
-  font-size: 0.66rem;
   line-height: 1;
   vertical-align: middle;
+}
+
+.mail-icon svg {
+  width: 0.72rem;
+  height: 0.72rem;
+  fill: currentColor;
 }
 
 .actions {
