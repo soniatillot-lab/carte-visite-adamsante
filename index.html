@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adam Sante</title>
+  <title>Adam Santé</title>
   <meta
     name="description"
-    content="Carte de visite digitale Adam Sante avec acces rapide au contact et au telechargement de la fiche."
+    content="Carte de visite digitale Adam Santé avec accès rapide au contact et au téléchargement de la fiche."
   >
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,48 +14,86 @@
   <main class="page-shell">
     <section class="card" aria-labelledby="brand-name">
       <div class="hero-frame">
-        <img
-          id="hero-image"
-          class="hero-image"
-          src="assets/logo.png"
-          alt="Logo Adam Sante"
-        >
-        <div class="hero-copy">
-          <p class="hero-kicker">Suivi et coordination</p>
-          <h2 class="hero-title">Adam Sante</h2>
-          <p class="hero-subtitle">Diabete, pompe a insuline, accompagnement de proximite</p>
+        <div class="hero-header">
+          <div class="hero-brand">
+            <img
+              id="hero-image"
+              class="hero-image"
+              src="assets/logo.webp"
+              alt="Logo Adam Santé"
+            >
+            <div class="hero-copy">
+              <p class="hero-subtitle">Diabète, pompe à insuline, accompagnement de proximité</p>
+            </div>
+          </div>
+
+          <div class="hero-links" aria-label="Liens rapides">
+            <a
+              id="linkedin-button"
+              class="hero-icon-link"
+              href="https://www.linkedin.com/in/sonia-tillot-026b56409"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Voir le profil LinkedIn de Sonia Tillot"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.94 8.5A1.56 1.56 0 1 1 6.94 5.38A1.56 1.56 0 0 1 6.94 8.5ZM5.6 18.4V9.8H8.3V18.4H5.6ZM10 9.8H12.58V10.97H12.62C12.98 10.29 13.87 9.57 15.18 9.57C17.92 9.57 18.4 11.37 18.4 13.71V18.4H15.7V14.24C15.7 13.25 15.68 11.97 14.31 11.97C12.92 11.97 12.7 13.06 12.7 14.16V18.4H10V9.8Z"/>
+              </svg>
+            </a>
+            <a
+              id="email-link"
+              class="hero-icon-link"
+              href="mailto:sonia.tillot@adamsante.fr"
+              aria-label="Envoyer un e-mail à sonia.tillot@adamsante.fr"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 6.75C3 5.78 3.78 5 4.75 5H19.25C20.22 5 21 5.78 21 6.75V17.25C21 18.22 20.22 19 19.25 19H4.75C3.78 19 3 18.22 3 17.25V6.75ZM5.03 7L12 12.03L18.97 7H5.03ZM19 8.24L12.44 12.98C12.18 13.17 11.82 13.17 11.56 12.98L5 8.24V17H19V8.24Z"/>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
 
       <div class="content">
         <div class="content-body">
           <p class="eyebrow">Carte de visite digitale</p>
-          <h1 id="brand-name">Adam Sante</h1>
-          <p class="role" id="role-text">Infirmiere coordinatrice</p>
+          <h1 id="brand-name">Adam Santé</h1>
+          <p class="role" id="role-text">Infirmière coordinatrice</p>
           <p class="intro" id="intro-text">
-            Adam Sante accompagne ses patients et ses partenaires avec une approche
+            Adam Santé accompagne ses patients et ses partenaires avec une approche
             humaine, claire et accessible. Retrouvez ici les informations utiles
             pour prendre contact rapidement.
           </p>
 
-          <dl class="details" aria-label="Informations de contact">
-            <div class="detail-item">
-              <dt>Adresse</dt>
-              <dd id="address-text">6 chemin du pavillon, 95100 Argenteuil</dd>
-            </div>
-            <div class="detail-item">
-              <dt>Specialite</dt>
-              <dd id="specialty-text">Prestataire diabete pompe a insuline</dd>
-            </div>
+          <div class="details" aria-label="Informations de contact">
+            <a
+              id="email-detail-link"
+              class="detail-row detail-row-primary"
+              href="mailto:sonia.tillot@adamsante.fr"
+            >
+              <span class="detail-label">
+                <span class="mail-icon" aria-hidden="true">✉</span>
+                E-mail
+              </span>
+              <span class="detail-value" id="email-text">sonia.tillot@adamsante.fr</span>
+            </a>
+            <p class="detail-row detail-row-muted">
+              <span class="detail-label">Adresse</span>
+              <span class="detail-value" id="address-text">6 chemin du pavillon, 95100 Argenteuil</span>
+            </p>
+            <p class="detail-row detail-row-muted">
+              <span class="detail-label">Spécialité</span>
+              <span class="detail-value" id="specialty-text">Prestataire diabète pompe à insuline</span>
+            </p>
             <a
               id="support-link"
-              class="detail-item detail-item-highlight detail-link"
+              class="detail-row detail-row-support"
               href="tel:+33146498062"
             >
-              <dt>Astreinte</dt>
-              <dd id="support-text">24H/24 7J/7 - 01.46.49.80.62</dd>
+              <span class="detail-label">Astreinte</span>
+              <span class="detail-value" id="support-text">24H/24 7J/7 - 01.46.49.80.62</span>
             </a>
-          </dl>
+          </div>
         </div>
 
         <div class="actions" aria-label="Actions principales">
@@ -65,7 +103,7 @@
             href="assets/adam-sante-contact.vcf"
             download
           >
-            Telecharger la carte
+            Télécharger le contact
           </a>
           <a
             id="call-button"
